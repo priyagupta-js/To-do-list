@@ -2,7 +2,7 @@ import React from "react";
 
 function Header () {
     return(
-        <header>Keepers</header>
+        <header class="heading">Keeper</header>
     )
 }
 
