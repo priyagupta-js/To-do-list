@@ -11,4 +11,5 @@ body{
 .heading {
     background-color: rgb(245, 186, 19);
     color: #fff;
+    padding: 20px;
 }
