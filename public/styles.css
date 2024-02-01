@@ -10,6 +10,7 @@ body{
 
 .heading {
     background-color: rgb(245, 186, 19);
+    font-size: 1.6rem;
     color: #fff;
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
