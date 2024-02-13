@@ -14,13 +14,13 @@
 import React from "react";
 import { ReactDOM } from "react";
 import Header from "../src/components/Header";
-import InputArea from "./components/InputArea";
+import Note from "./components/Note";
 import Footer from "../src/components/Footer";
 function App() {
   return (
     <div className="App">
     <Header />
-    <InputArea />
+    <Note />
     <Footer />
     </div>
   );
