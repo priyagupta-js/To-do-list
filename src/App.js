@@ -20,8 +20,8 @@ function App() {
   return (
     <div className="App">
     <Header />
-    <Footer />
     <InputArea />
+    <Footer />
     </div>
   );
 }

@@ -8,12 +8,17 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.heading {
+header {
     background-color: rgb(245, 186, 19);
-    font-size: 1rem;
-    color: #fff;
-    padding: 20px;
+    margin: auto -16px;
+    padding: 18px 36px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+     color: #fff;
+     font-weight: 500;
+     font-family:'open Sans' , sans-serif;
 }
 .content-container{
     /* border: 2px solid black; */
