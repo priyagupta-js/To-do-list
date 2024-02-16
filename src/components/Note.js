@@ -1,12 +1,14 @@
 import React from 'react'
 
-function InputArea()  {
+function Note(props)  {
   return (
     <div className='note'>
-        <h1>Content headings goes here</h1>
-        <p>Content goes here.</p>
+        <h1>{props.title}</h1>
+        <p>
+          {props.content}
+        </p>
     </div>
   )
 }
 
-export default  InputArea;
+export default Note;
