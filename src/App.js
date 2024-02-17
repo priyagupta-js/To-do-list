@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
     <Header />
-    <Note title = "Content title" content="Content goes here" />
+    <Note title = "title" content="Content goes here" />
     <Footer />
     </div>
   );
