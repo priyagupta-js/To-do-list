@@ -1,6 +1,5 @@
 
 import React from "react";
-import { ReactDOM } from "react";
 import Header from "../src/components/Header";
 import Note from "./components/Note";
 import Footer from "../src/components/Footer";
