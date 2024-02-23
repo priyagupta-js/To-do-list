@@ -1,4 +1,5 @@
 import React from 'react'
+import notes from "../notes.js"
 
 function Note(props)  {
   return (

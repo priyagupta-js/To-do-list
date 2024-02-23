@@ -3,7 +3,6 @@ import React from "react";
 import Header from "../src/components/Header";
 import Note from "./components/Note";
 import Footer from "../src/components/Footer";
-import notes from "../src/notes.js"
 function App() {
   return (
     <div className="App">
