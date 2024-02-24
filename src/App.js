@@ -9,6 +9,7 @@ function App() {
     <Header />
     <Note title = "title" content="Content goes here" />
     <Note title ="title" content="Content goes here" />
+    <Note title ="title" content="Content goes here" />
     <Footer />
     </div>
   );
