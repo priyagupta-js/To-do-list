@@ -12,6 +12,8 @@ function App() {
     <Note title ={note[0].title} content={note[0].content} />
     <Note title ={note[1].title} content={note[1].content} />
     <Note title ={note[2].title} content={note[2].content} />
+    <Note title ={note[3].title} content={note[3].content} />
+    <Note title={note[3].title} content={note[3].content} />
     <Footer />
     </div>
   );
