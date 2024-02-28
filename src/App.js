@@ -1,11 +1,12 @@
 
 import React from "react";
+// import { ReactDOM } from "react-dom/client";
 import Header from "../src/components/Header";
 import Note from "./components/Note";
 import note from "./notes.js"
 import Footer from "../src/components/Footer";
 
-function createContact (note){
+function createNote (note){
   <Note 
     title={note.title}
     content={note.content}
@@ -15,7 +16,7 @@ function App() {
   return (
     <div className="App">
     <Header />
-    {note.map(createContact)}
+    {note.map(createNote)}
     {/* <Note title ={note[0].title} content={note[0].content} />
     <Note title ={note[1].title} content={note[1].content} />
     <Note title ={note[2].title} content={note[2].content} />
