@@ -6,13 +6,13 @@ import Note from "./components/Note";
 import notes from "./notes.js"
 import Footer from "../src/components/Footer";
 
-function createNote (note){
+function createNote (noteItem){
   return(
   <Note 
   // imp property which we have to give to access the object elements 
-    key={note.key}
-    title={note.title}
-    content={note.content}
+    key={noteItem.key}
+    title={noteItem.title}
+    content={noteItem.content}
   />
   );
 }
