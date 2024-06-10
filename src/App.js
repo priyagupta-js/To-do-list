@@ -13,6 +13,7 @@ function App() {
     <div className="App">
     <Header />
     {/* {arrayName.map(function)} */}
+    {/* Arrow function - (anonymous function) */}
     {notes.map(noteItem =>(
   <Note 
   // imp property which we have to give to access the object elements 
