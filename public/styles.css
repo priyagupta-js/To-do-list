@@ -52,3 +52,19 @@ footer p {
     white-space: pre-wrap;
     word-wrap: break-word;
 }
+
+.textContainer
+{
+    padding: 10px;
+}
+
+.text-box{
+    padding: 10px;
+    font-size: 24px;
+    margin-right: 5px;
+}
+.btn-add
+{
+    padding: 10px;
+    font-size: 24px;
+}
