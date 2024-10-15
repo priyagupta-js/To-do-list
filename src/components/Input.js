@@ -1,14 +1,21 @@
-import React, { useState } from "react";
+import React ,{useState} from "react";
 
 function Input()
 {
-    // const [ text, setText] = useState("title");
+    const [ text, setText] = useState();
 
-    return
-    (
+    function handleText(){
+        console.log(setText(text))
+    }
+    return (
         <div className="textContainer">
-        <input className="text-box" id ="input" placeholder="Enter Text....">{text}</input>
-        <button type="submit" className="btn-add" id="btn">Add</button>
+        <input type="text" value={text} className="text-box"/>
+        <button type="button" onClick={handleText} className="btn-add">Add</button>
+        <ul>
+            <li>
+                {setText}
+            </li>
+        </ul>
         </div>
     );
 }
